@@ -11,12 +11,13 @@ function App() {
   useEffect(()=> {
     window.fbAsyncInit = function () {
       window.FB.init({
-        appId      : process.env.FACEBOOK_DEVELOPER_API_ID,
+        appId      : process.env.REACT_APP_FACEBOOK_DEVELOPER_API_ID,
         cookie     : true,  
         xfbml      : true,  
         version    : 'v20.0' 
       });
     }
+    console.log(process.env.REACT_APP_FACEBOOK_DEVELOPER_API_ID)
   },[])
   return (
     <LoginAccessProvider>

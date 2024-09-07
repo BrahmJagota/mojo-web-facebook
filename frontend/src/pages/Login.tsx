@@ -13,7 +13,7 @@ export default function Login () {
               }
               
           },
-          {config_id: process.env.FACEBOOK_DEVELOPER_CONFIG_ID},
+          {config_id: process.env.REACT_APP_FACEBOOK_DEVELOPER_CONFIG_ID},
           //  {scope: 'public_profile,email'},
           
         )
