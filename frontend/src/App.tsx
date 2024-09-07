@@ -6,7 +6,6 @@ import Login from './pages/Login';
 import { LoginAccessProvider } from './context/LoginAccess';
 import Home from './pages/Home';
 import PageInfo from './pages/PageInfo';
-
 function App() {
   useEffect(()=> {
     window.fbAsyncInit = function () {
@@ -17,7 +16,6 @@ function App() {
         version    : 'v20.0' 
       });
     }
-    console.log(process.env.REACT_APP_FACEBOOK_DEVELOPER_API_ID)
   },[])
   return (
     <LoginAccessProvider>
