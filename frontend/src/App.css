@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#login, #home, #page-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+#login button {
+  height: 3rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+/* home */
+
+.profile-container {
+  /* min-height: 40rem;
+  width: 20rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+
+  position: relative;
+}
+
+.profile-card {
+  background-color: #fff;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.user-info {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.latest-posts h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.latest-posts p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.logout {
+  display: block;
+  margin-top: 20px;
+  color: #e74c3c;
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent;
+  margin: auto;
+  border: none;
+}
+
+.logout:hover {
+  text-decoration: underline;
+}
+
+.page-card {
+  border: 1px solid #292929;
+  margin: 4px 10px;
+  /* padding: .5rem; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#page-info .container > div {
+    width: 20rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: .2rem .5rem;
+}
+
+#page-info .page_id {
+  margin-left: .5rem;
+}
