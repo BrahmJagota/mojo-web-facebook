@@ -9,7 +9,7 @@ You can view the deployed version of the app [here](https://mojo-web-facebook.ve
 **Note:** Unfortunately, the deployed URL domain is not supported by the Facebook Graph API, and you might encounter errors during API calls. For full functionality, please follow the instructions below to run the app locally.
 
 ## Local Setup
-### config id: 2918241688330560
+### config id: 2918241688330560 (env: REACT_APP_FACEBOOK_DEVELOPER_CONFIG_ID)
 ### 1. Install Dependencies
 Navigate to the frontend directory and install the required dependencies:
 ```
